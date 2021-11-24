@@ -1,0 +1,36 @@
+.outgoingWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.outgoingMessage {
+	background: rgb(135, 206, 235, 0.5);
+	border-radius: 0.4rem;
+	margin: 0rem 0.5rem 1rem 0.5rem;
+	padding: 0.5rem;
+	width: fit-content;
+	box-shadow: -1px 1px 5px 1px rgb(50, 51, 48, 0.2);
+}
+.messageText {
+	border-bottom: 1px solid rgb(50, 51, 48, 0.2);
+	font-size: 1rem;
+	padding-bottom: 0.25rem;
+}
+.messageTime {
+	padding-top: 0.25rem;
+	font-size: 0.8rem;
+}
+.incomingWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.incomingMessage {
+	background: rgb(144, 238, 144, 0.5);
+	border-radius: 0.4rem;
+	margin: auto 0.5rem 1rem 0.5rem;
+	padding: 0.5rem;
+	width: fit-content;
+	box-shadow: -1px 1px 5px 1px rgb(50, 51, 48, 0.2);
+}
